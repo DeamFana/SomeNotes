@@ -1,6 +1,29 @@
-#以下是Markdown文件笔记（按需取用！）
-##标题写法
----
+# 以下是Markdown文件笔记（按需取用！）
+<br>
+<br>
+
+### 目录
+1. [标题写法](#1-标题写法)
+1. [标题写法2](#2-标题写法2)
+1. [粗体写法](#3-粗体写法)
+1. [斜体写法](#4-斜体写法italic)
+1. [粗斜体写法](#5-粗斜体写法)
+1. [引用写法](#6-引用写法)
+1. [有序列表写法](#7-序号有序列表写法)
+1. [无序列表写法](#8-序号无序列表写法)
+1. [代码写法](#9-代码写法)
+1. [链接写法](#10-链接写法)
+1. [图片写法](#11-图片写法)
+1. [表格写法](#12-表格写法)
+1. [脚注写法](#13-脚注写法)
+1. [删除线写法](#14-删除线写法)
+1. [表情写法](#15-表情写法)
+1. [任务列表写法](#16-任务列表写法)
+
+<br>
+<br>
+
+## 1. 标题写法
 
 # Heading level 1
 ## Heading level 2
@@ -9,18 +32,22 @@
 ##### Heading level 5
 ###### Heading level 6
 ####### Heading level 7
+
 ……
 
-##标题写法2
----
+## 2. 标题写法2
+
 
 Heading level 1
 ===============
 Heading level 2
 ---------------
 
-##粗体写法
----
+<br>
+<br>
+<br>
+
+## 3. 粗体写法
 
 I just love **bold text**.
 
@@ -28,8 +55,12 @@ I just love __bold text__.
 
 Love**is**bold
 
-##斜体写法（Italic）
----
+<br>
+<br>
+<br>
+
+## 4. 斜体写法（Italic）
+
 
 Italicized text is the *cat's meow*.
 
@@ -37,8 +68,11 @@ Italicized text is the _cat's meow_.
 
 A*cat*meow
 
-##粗斜体写法
----
+<br>
+<br>
+<br>
+
+## 5. 粗斜体写法
 
 This text is ***really important***.	
 
@@ -50,8 +84,13 @@ This text is **_really important_**.
 
 This is really***very***important text.	
 
-##引用写法
----
+
+<br>
+<br>
+<br>
+
+## 6. 引用写法
+
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 
@@ -76,8 +115,11 @@ This is really***very***important text.
 >
 >  *Everything* is going according to **plan**.
 
-##序号(有序列表)写法
----
+<br>
+<br>
+<br>
+
+## 7. 序号(有序列表)写法
 
 1. First item
 2. Second item
@@ -98,8 +140,11 @@ This is really***very***important text.
     2. Indented item
 1. Fourth item
 
-##序号(无序列表)写法
----
+<br>
+<br>
+<br>
+
+## 8. 序号(无序列表)写法
 
 - First item
 - Second item
@@ -130,8 +175,7 @@ This is really***very***important text.
 *   And here's the third list item.
 
 
-##代码写法
----
+## 9. 代码写法
 
 At the command prompt, type `nano`.
 
@@ -165,12 +209,14 @@ At the command prompt, type `nano`.
 }
 ```
 
-##链接写法
----
+<br>
+<br>
+<br>
+
+## 10. 链接写法
 
 这是一个链接 [Markdown语法](https://markdown.com.cn)。
 
----
 这是一个链接 [Markdown语法（悬停版）](https://markdown.com.cn "鼠标悬停显示")。
 
 ---
@@ -178,7 +224,9 @@ https://markdown.com.cn
 
 fake@example.com
 
-*有些情况需要加尖括号 <https://markdown.com.cn> <fake@example.com>*
+`https://markdown.com.cn` 禁用网址链接
+
+*有些情况需要加尖括号 <https://markdown.com.cn> 和 <fake@example.com>*
 
 ---
 I love supporting the **[EFF](https://eff.org)**.
@@ -187,18 +235,27 @@ This is the *[Markdown Guide](https://www.markdownguide.org)*.
 
 See the section on [`code`](#code).
 
-##图片写法
+<br>
+<br>
+<br>
+
+## 11. 图片写法
+
+    ![图片alt](图片链接 "图片title")
+
+![这是参考图片名称](./assets/参考.jpg "这是悬停气泡")
+
 ---
 
-*![图片alt](图片链接 "图片title")*
+这个图片可以点击 ↓
+[![沙漠中的岩石图片](https://markdown.com.cn/assets/img/shiprock.c3b9a023.jpg "Shiprock")](https://markdown.com.cn)
 
-![图片alt](D:/新建文件夹 (5)/参考.jpg "图片title")
+<br>
+<br>
+<br>
 
-[![沙漠中的岩石图片](/assets/img/shiprock.jpg "Shiprock")](https://markdown.com.cn)
+## 12. 表格写法
 
-
-##表格写法
----
 
 | Syntax | Description |
 | --- | ----------- |
@@ -215,8 +272,11 @@ See the section on [`code`](#code).
 
 ---
 
-##脚注写法
----
+<br>
+<br>
+<br>
+
+## 13. 脚注写法
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
@@ -230,16 +290,46 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
     Add as many paragraphs as you like.
 
+<br>
+<br>
 
-##删除线写法
----
+
+## 14. 删除线写法
 
 ~~世界是平坦的。~~ 我们现在知道世界是圆的。
 
-##表情写法
----
+<br>
+<br>
+
+
+## 15. 表情写法
 
 去露营了！ :tent: 很快回来。
 
 真好笑！ :joy:
 
+<br>
+
+
+## 16. 任务列表写法
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+
+<br>
+
+## 17. 分割线写法
+
+### **↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓**
+
+---
+
+### **↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑**
+
+<br>
+
+## 18. 文内跳转链接写法
+
+[跳转到 “ 18. 文内跳转链接写法 ” ](#18-文内跳转链接写法)
