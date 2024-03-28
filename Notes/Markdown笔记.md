@@ -250,7 +250,7 @@ See the section on [`code`](#code).
 
     ![图片alt](图片链接 "图片title")
 
-![这是参考图片名称](./assets/参考.jpg "这是悬停气泡")
+![这是参考图片名称](../assets/参考.jpg "这是悬停气泡")
 
 ---
 
